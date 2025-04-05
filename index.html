@@ -13,6 +13,14 @@
             flex-direction: row;
         }
 
+        .mainpixel {
+            background-color: #ffdbe6;
+            height: 1000px;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
         .pix {
             display: grid;
             align-content: center;
@@ -43,15 +51,15 @@
             gap: 1px;
         }
 
-        .pixpic {
+        /* .pixpic {
             display: grid;
             align-content: center;
             grid-template-columns: repeat(8, 20px);
-            /* 3 cột, mỗi cột 20px */
+            
             grid-template-rows: repeat(11, 20px);
-            /* 5 hàng, mỗi hàng 20px */
+             
             gap: 1px;
-        }
+        } */
 
         .space {
             display: grid;
@@ -95,588 +103,304 @@
             background-color: #FFB8E0;
             /* FFB8E0 */
         }
+
+        @media (max-width: 500px){
+            .container {
+                background-color: #ffdbe6;
+            }
+
+            .mainpixel {
+                transform: scale(0.4);
+                background-color: #ffdbe6;
+                height: 1000px;
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+            }
+        }
     </style>
 </head>
 
 <body>
 
     <div class="container">
+        <div class="mainpixel">
+            <div class="pix2">
+                <div class="pixelpic"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic"></div>
+            </div>
 
-        <div class="pix2">
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
+            <!-- Dấu cách -->
+
+            <div class="space">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+
+            <!-- Chữ T -->
+            <div class="pix">
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+            </div>
+
+            <!-- Chữ I -->
+            <div class="pix">
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+            </div>
+
+            <!-- Chữ F -->
+
+            <div class="pix1">
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+
+            <!-- Chữ F -->
+
+            <div class="pix1">
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+
+            <!-- Chữ U -->
+
+            <div class="pix">
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+            </div>
+
+            <!-- Dấu cách -->
+
+            <div class="space">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+
+            <!-- Chữ Y -->
+
+            <div class="pix2">
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+
+            <!-- Dấu cách -->
+
+            <div class="space">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+
+            <!-- Chữ A -->
+
+            <div class="pix">
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel filled"></div>
+                <div class="pixel"></div>
+                <div class="pixel filled"></div>
+            </div>
+
+            <!-- Dấu cách -->
+
+            <div class="space">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+
+            <!-- Trái Tym -->
+
+            <div class="pix2">
+                <div class="pixelpic"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
+                <div class="pixelpic"></div>
+                <div class="pixelpic"></div>
+            </div>
         </div>
-
-        <!-- Ngôi sao -->
-
-        <!-- <div class="pixpic">
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #FFFF00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-        </div> -->
-
-        <!-- Ngôi sao -->
-
-        <!-- <div class="pixpic">
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled" style="background-color: yellow;"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-        </div> -->
-
-        <!-- Dấu cách -->
-
-        <div class="space">
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-        </div>
-
-        <!-- Chữ T -->
-        <div class="pix">
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-        </div>
-
-        <!-- Chữ I -->
-        <div class="pix">
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-        </div>
-
-        <!-- Chữ F -->
-
-        <div class="pix1">
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-        </div>
-
-         <!-- Chữ F -->
-
-         <div class="pix1">
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-        </div>
-
-        <!-- Chữ U -->
-
-        <div class="pix">
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-        </div>
-
-        <!-- Dấu cách -->
-
-        <div class="space">
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-        </div>
-
-        <!-- Chữ Y -->
-
-        <div class="pix2">
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-        </div>
-
-        <!-- Dấu cách -->
-
-        <div class="space">
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-        </div>
-
-        <!-- Chữ A -->
-
-        <div class="pix">
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel filled"></div>
-            <div class="pixel"></div>
-            <div class="pixel filled"></div>
-        </div>
-
-        <!-- Dấu cách -->
-
-        <div class="space">
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-            <div class="pixel"></div>
-        </div>
-
-        <!-- Trái Tym -->
-
-        <div class="pix2">
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #f486f9;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-        </div>
-
-        <!-- Ngôi sao -->
-
-        <!-- <div class="pixpic">
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic filledpic" style="background-color: #EEEE00;"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-            <div class="pixelpic"></div>
-        </div> -->
     </div>
-
-    <!-- <script>
-        function animatePixels() {
-            const pixels = document.querySelectorAll('.pixel');
-    
-            pixels.forEach((pixel, index) => {
-                setTimeout(() => {
-                    pixel.style.transition = 'transform 0.3s ease-in-out';
-                    pixel.style.transform = 'scale(1.2)'; // Phóng to giống hover
-                    
-                    setTimeout(() => {
-                        pixel.style.transform = 'scale(1)'; // Trở lại kích thước ban đầu
-                    }, 300); // Giữ hiệu ứng trong 300ms
-                }, Math.random() * 2000); // Mỗi pixel sẽ chạy hiệu ứng ở thời điểm ngẫu nhiên trong 2 giây
-            });
-    
-            setTimeout(animatePixels, 2000); // Lặp lại hiệu ứng sau mỗi 2 giây
-        }
-    
-        document.addEventListener("DOMContentLoaded", animatePixels);
-    </script>     -->
 
     <script>
         function blinkPixels() {
             const pixels = document.querySelectorAll('.pixelpic');
-    
+
             pixels.forEach(pixel => {
                 setTimeout(() => {
                     pixel.style.transition = 'opacity 0.3s ease-in-out';
                     pixel.style.opacity = '0'; // Ẩn pixel
-                    
+
                     setTimeout(() => {
                         pixel.style.opacity = '1'; // Hiện pixel lại
                     }, 500); // Ẩn trong 300ms
                 }, Math.random() * 5000); // Mỗi pixel blink sau thời gian ngẫu nhiên (0 - 2 giây)
             });
-    
+
             setTimeout(blinkPixels, 5000); // Lặp lại hiệu ứng sau 2 giây
         }
-    
+
         document.addEventListener("DOMContentLoaded", blinkPixels);
     </script>
 
